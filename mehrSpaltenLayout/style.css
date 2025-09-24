@@ -1,0 +1,49 @@
+body{
+    width: 1000px;
+    margin: auto;
+}
+
+header{
+    width: 1000px;
+    background-color: bisque;
+    margin-bottom: 2px;
+}
+
+#ueberschrift{
+    height: 40px;
+    background-color: aqua;
+}
+
+#topnav{
+    height: 20px;
+    background-color: aquamarine;
+}
+
+#main{
+    
+}
+
+#left{
+    width: 200px;
+    background-color: blue;
+    float: left;
+}
+
+#content{
+    background-color: blueviolet;
+    width: auto;
+    height: auto;
+}
+
+#right{
+    width: 200px;
+    background-color: cadetblue;
+    float: right;
+}
+
+footer{
+    width: 1000px;
+    height: 20px;
+    background-color: coral;
+    clear: both;
+}
