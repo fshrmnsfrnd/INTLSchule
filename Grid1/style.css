@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-areas: 
+    "h h h"
+    "l c r"
+    "f f f"
+    ;
+}
+
+#container{
+    grid-area: c;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr;
+    grid-template-rows: repeat(auto-fit, minmax(50px, auto));
+    gap: 5px;
+}
+
+/* Beispiel: Block #03 in Zeile 2, Spalten 3-5 positionieren */
+#a03{
+    grid-column: 3 / 6;  /* Von Spalte 3 bis Spalte 6 (= Spalten 3, 4, 5) */
+    grid-row: 2;         /* In Zeile 2 */
+    background-color: lightblue;
+}
+
+div{
+    border: 2px solid black;
+    min-height: 3px;
+    min-width: 3px;
+}
+
+#a14{
+    display: grid;
+}
