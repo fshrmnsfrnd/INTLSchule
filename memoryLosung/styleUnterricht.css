@@ -1,0 +1,89 @@
+
+#container {
+    display: grid;
+    grid-template-columns: auto  80vh  auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#ueberschrift, #menu, #fuss {
+    grid-column: 1/4;
+}
+
+#container > div {
+    border: 1px solid black;
+}
+
+#spielfeld {
+     display: grid;
+     grid-template-columns: repeat(6,1fr);
+
+}
+
+#spielfeld img {
+    width: 100%;
+    /* Damit der weisse Rand unten weggeht */
+    display: block;
+}
+
+#spieler1 ul, #spieler2 ul, #menu ul {
+    margin: 0;
+    padding:0;
+}
+
+#spieler1 li, #spieler2 li {
+    list-style-type: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+#spieler1 a, #spieler2 a, #menu a {
+    color:  white;
+    text-decoration: none;
+} 
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+.submenu{
+    opacity: 0;
+    display: block;
+    position: absolute;
+
+}
+
+.submenu>ul{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+}
+
+.submenu>ul>li{
+    margin-top: 5px;
+}
+
+.menubutton:hover{ 
+    cursor: pointer;
+    .submenu{
+        opacity: 1;
+        margin-left: -11px;
+    }
+}
+
+.menubuttonsp2:hover {
+    cursor: pointer;
+
+    .submenu {
+        opacity: 1;
+        margin-left: -120px;
+        margin-top: -23px;
+    }
+}

@@ -6,39 +6,43 @@ body{
 header{
     width: 1000px;
     background-color: bisque;
-    margin-bottom: 2px;
 }
 
 #ueberschrift{
     height: 40px;
     background-color: aqua;
+    margin: 0px;
 }
 
 #topnav{
-    height: 20px;
+    /*height: 20px;*/
+    height: auto;
     background-color: aquamarine;
 }
 
 #main{
-    
+        height: calc(100vh - 85px);
 }
 
 #left{
     width: 200px;
     background-color: blue;
     float: left;
+    height: 100%;
 }
 
 #content{
     background-color: blueviolet;
-    width: auto;
-    height: auto;
+    width: calc(100% - 400px);
+    height: 100%;
+    float: left;
 }
 
 #right{
     width: 200px;
     background-color: cadetblue;
     float: right;
+    height: 100%;
 }
 
 footer{
@@ -46,4 +50,13 @@ footer{
     height: 20px;
     background-color: coral;
     clear: both;
+    margin: 0px;
+}
+
+footer > p {
+    margin: 0px;
+}
+
+ul{
+    margin: 0px;
 }
