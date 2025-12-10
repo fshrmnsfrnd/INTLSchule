@@ -1,0 +1,37 @@
+.innerDiv{
+    float: left;
+}
+
+.outerDiv{
+    display: block;
+}
+
+#outerDiv1{
+    background-color: aqua;
+}
+
+#outerDiv2 {
+    background-color:aquamarine;
+}
+
+#outerDiv3 {
+    background-color:bisque;
+}
+
+.innerDiv{
+    height: 200px;
+    width: 25%;
+}
+
+#outerDiv1 .innerDiv:nth-child(2n) {
+    background-color: blue;
+}
+
+#innderDiv18{
+    height: 250px;
+    background-color: blueviolet;
+}
+
+#innderDiv23{
+    clear: left;
+}

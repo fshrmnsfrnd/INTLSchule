@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+
+h1 {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 18px;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+div {
+    float: left;
+    box-sizing: border-box;
+}
+
+#rahmen {
+    background-color: rgb(241, 238, 240);
+    width: 1000px;
+    border: 3px solid red;
+    box-sizing: content-box;
+}
+
+#ueberschrift,
+#topnav {
+    background-color: rgb(164, 237, 179);
+    width: 1000px;
+    padding: 10px;
+}
+
+#links {
+    background-color: red;
+    width: 200px;
+    padding: 10px;
+    height: 80vh;
+}
+
+#content {
+    background-color: aqua;
+    width: 600px;
+    padding: 10px;
+    height: 80vh;
+
+}
+
+#rechts {
+    background-color: violet;
+    width: 200px;
+    padding: 10px;
+    height: 80vh;
+
+}
+
+#fuss {
+    background-color: yellow;
+    width: 1000px;
+    padding: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#topnav ul {
+    padding: 10px;
+}
+
+#topnav li {
+    display: inline;
+}
+
+#topnav li:hover {
+    background-color: white;
+    padding: 5px;
+}

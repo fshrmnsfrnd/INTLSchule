@@ -1,0 +1,40 @@
+#rahmen01 {
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr;
+
+    grid-template-rows: repeat(5, 200px);
+    /*
+    align-items: end;
+    justify-items:  baseline;
+    */
+
+}
+
+
+
+#rahmen01>div {
+    border: 1px solid black;
+    padding: 10px;
+
+}
+
+#rahmen01 #id08 {
+    grid-column: 2 / 5;
+    grid-row: 2/3;
+}
+
+#rahmen01>div:nth-child(2n) {
+    background-color: white;
+}
+
+#rahmen01 #id04 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    column-gap: 2px;
+    row-gap: 2px;
+}
+
+#rahmen01 #id04 div {
+    background-color: red;
+}

@@ -1,0 +1,164 @@
+body {
+    font-family: Arial, sans-serif;
+
+}   
+
+#container {
+    display: grid;
+    grid-template-columns: auto 80vh auto;
+    column-gap: 10px;
+    row-gap: 10px;
+}
+
+#ueberschrift,
+#menu,
+#fuss {
+    grid-column: 1/4;
+}
+
+#container>div {
+    border: 1px solid black;
+}
+
+#spielfeld {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+
+}
+
+#spielfeld img {
+    width: 100%;
+    /* Damit der weisse Rand unten weggeht */
+    display: block;
+}
+
+#spieler1, #spieler2 {
+    padding: max(10px,1em);
+}
+
+#spieler1 ul,
+#spieler2 ul,
+#menu ul {
+    margin: 0;
+    padding: 0;
+}
+
+#spieler1 li,
+#spieler2 li {
+    list-style-type: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    margin-bottom: 5px;
+}
+
+#spieler1 a,
+#spieler2 a,
+#menu a {
+    color: white;
+    text-decoration: none;
+}
+
+#menu li {
+    display: inline-block;
+    list-style-type: none;
+    background-color: blue;
+    color: white;
+    padding: 5px 10px;
+    margin-right: 5px;
+}
+
+/* Untermenü formatieren */
+#menu > ul > li {
+    position: relative;
+}
+
+#menu > ul > li > ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 15rem;
+    display: none;
+}
+
+#menu > ul > li > ul > li {
+    display: block;
+}
+
+#menu > ul > li:hover > ul {
+    display: block;
+}
+
+/* Spieler1 und Spieler2 Untermenü */
+#spieler1 > ul > li, #spieler2 > ul > li {
+    position: relative;
+}
+
+#spieler1 > ul > li > ul, #spieler2 > ul > li > ul {
+    position: absolute;
+    top: 0;
+
+    width: 15rem;
+    display: none;
+}
+
+#spieler1 > ul > li > ul {
+    left: 100%;
+}
+
+#spieler2 > ul > li > ul {
+    right: 100%;
+}
+
+#spieler1 > ul > li:hover > ul, #spieler2 > ul > li:hover > ul {
+
+    display: block
+}
+
+#spielfeld .rueckseite {
+    display: none;
+}
+
+#spielfeld .memorykaestechen:hover .vorderseite {
+    display: none;
+}
+
+#spielfeld .memorykaestechen:hover .rueckseite {
+    display: block;
+}
+
+#fixiert {
+    position: fixed;
+    bottom: 0;
+    top:0;
+    width: 80%;
+    margin: 10%;
+    background-color: rgb(200,200,0,0.5);
+    /* Zum TEsten einblenden */
+    display: none;
+}
+
+@media screen and (max-width: 70em) {
+    #container {
+        display: grid;
+        grid-template-columns: 1fr;
+
+    }
+
+    #ueberschrift,
+    #menu,
+    #fuss {
+        grid-column: 1/2;
+    }
+
+    #spieler2 {
+        grid-row: 4/5;
+        font-size: 0.5em;
+    }
+
+    #spieler1 li,
+#spieler2 li {
+    display: inline-block;
+}
+
+}
