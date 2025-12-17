@@ -1,0 +1,131 @@
+:root {
+    --farbeHintergrundHell: #fefefe;
+    --farbeHintergrundDunkel: #343488;
+    --farbeRand: #343488;
+    --farbeRandhell: #ff55f1;
+    --gesamtbreite: 90vh;
+    --responsiveGrenze: 1000px;
+    --schriftGroesse: 14px;
+}
+
+/*Aufgabe 1*/
+* {
+    font-size: var(--schriftGroesse);
+    font-family: Verdana, Geneva;
+}
+
+.block{
+    max-width: var(--gesamtbreite);
+    margin: auto auto;
+    margin-bottom: 1em;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+/*Aufgabe 2*/
+#block1{
+    border: 2px solid var(--farbeRand);
+    border-radius: 1em;
+    padding: 1em;
+}
+
+#textBlock1{
+    font-size: 0.8em;
+}
+
+/*Aufgabe 3*/
+#block2{
+    border: 2px solid var(--farbeRand);
+    border-radius: 1em;
+    padding: 1em;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+#textblock{
+    grid-column: 2/4;
+    grid-row: 2/4;
+}
+
+.sternBeschriftung{
+    position: absolute;
+    display: none;
+    background-color: var(--farbeHintergrundDunkel);
+    color: white;
+    padding: 0.5em;
+    /*top: 100%; finde keinen passenden wert;*/
+    width: 186px;
+}
+
+img:hover+.sternBeschriftung{
+    display: block;
+}
+
+#textBlock2{
+    font-size: 0.6em;
+}
+
+@media (max-width:1000px) {
+    #block2{
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+        #textblock {
+            grid-column: 1/4;
+            grid-row: 3;
+        }
+}
+
+/*Aufgabe 4*/
+
+#block3{
+    display: flex;
+    width: 100%;
+}
+
+#block3>div {
+    float: left;
+    width: 33%;
+    border: 2px solid var(--farbeRand);
+    border-radius: 1em;
+    margin: 1em;
+}
+
+#block3>div>img{
+    width: 100%;
+}
+
+#block3>div>div {
+    height: 8em;
+    padding: 0.5em;
+    overflow: hidden;
+    background-color: var(--farbeHintergrundDunkel);
+    color: white;
+}
+
+@media (max-width:1000px) {
+    #block3>div {
+        width: 50%;
+    }
+    #block3Element3{
+        width: 100%;
+        clear: left;
+    }
+}
+
+/*Aufgabe 5*/
+#chatbox{
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+    background-color: var(--farbeHintergrundDunkel);
+    width: 20em;
+    padding: 0.5em;
+    border: 2px solid var(--farbeRandhell);
+}
+
+#chateingabe{
+    width: 19em; /*Wegen padding nicht 100%*/
+}
