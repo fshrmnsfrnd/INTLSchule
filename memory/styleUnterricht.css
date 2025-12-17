@@ -111,19 +111,24 @@ body {
 }
 
 #spieler1 > ul > li:hover > ul, #spieler2 > ul > li:hover > ul {
-
     display: block
 }
 
-#spielfeld .rueckseite {
-    display: none;
-}
-
+/*
 #spielfeld .memorykaestechen:hover .vorderseite {
     display: none;
 }
 
 #spielfeld .memorykaestechen:hover .rueckseite {
+    display: block;
+}
+*/
+
+.vorderseite{
+    display: none;
+}
+
+.rueckseite{
     display: block;
 }
 
