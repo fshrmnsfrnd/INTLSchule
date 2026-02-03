@@ -1,0 +1,23 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#bilder, #ausgabe {
+    border: solid 1px blue;
+    min-height: 100px;
+}
+
+#bilder>div {
+    display: grid;
+    grid-template-columns: repeat(6,auto);
+    row-gap: 1em;
+    column-gap: 1em;
+}
+
+#bilder div div {
+    width: 100%;
+}
+
+img {
+    width: 100%;
+}
