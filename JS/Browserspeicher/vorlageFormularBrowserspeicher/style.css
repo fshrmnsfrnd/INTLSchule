@@ -1,0 +1,68 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: aliceblue;
+    padding: 2em;
+}
+
+H1 {
+    margin: 0.5em;;
+}
+
+#formular {
+    display: grid;
+    grid-template-columns: 15em auto;
+    column-gap: 0.5em;
+    row-gap: 0.5em;
+}
+
+label, input, select {
+    box-sizing: border-box;
+    padding: 0.5em;
+}
+
+#formular > label {
+    text-align: right;
+}
+
+.radio {
+    display: grid;
+    grid-template-columns: 2em auto;
+}
+
+.radio input {
+    padding: 0.3em;
+    margin: 0.2em;;
+}
+
+button {
+    padding: 0.5em;
+    font-size: 1.2em;;
+    background-color: navy;
+    color: aliceblue;
+}
+
+textarea {
+    width: 100%;
+}
+
+@media screen and (max-width: 600px) {
+    #formular {
+        display: grid;
+        grid-template-columns: auto;
+        column-gap: 0.2em;
+        row-gap: 0.2em;
+    }
+
+    #formular > label {
+        text-align: left;
+        font-weight: bold;
+        padding-bottom: 0.1em;
+    }
+    
+}

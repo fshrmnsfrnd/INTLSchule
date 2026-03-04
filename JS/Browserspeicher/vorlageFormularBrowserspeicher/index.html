@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./formular.js"></script>
+</head>
+
+<body>
+    <div id="rahmen">
+        <div id="ucformular">
+            <h1>Formularstyling</h1>
+            <form id="formular" action="" method="POST">
+                <label for="vorname">Vorname</label><input type="text" name="vorname" id="vorname">
+                <label for="nachname">Name</label><input type="text" name="nachname" id="nachname">
+                <label for="klasse">Klasse</label><input type="text" name="klasse" id="klasse">
+                <label for="email">Email</label><input type="text" name="email" id="email">
+
+                <label for="fachrichtung">Fachrichtung</label>
+                <select name="fachrichtung" id="fachrichtung">
+                    <option value="informatik">Informatik</option>
+                    <option value="elektrotechnik">Elektrotechnik</option>
+                    <option value=""></option>
+                    <option value=""></option>
+                    <option value=""></option>
+                </select>
+
+                <label>Fächer</label>
+                <div class="radio">
+                    <input type="checkbox" name="pro" id="pro" value="pro"><label for="pro">Programmieren</label>
+                    <input type="checkbox" name="intt" id="intt" value="intt"><label
+                        for="intt">Internettechnologie</label>
+                    <input type="checkbox" name="db" id="db" value="db"><label for="db">Datenbanken</label>
+                    <input type="checkbox" name="ba" id="ba" value="ba"><label for="ba">Betriebssysteme</label>
+                </div>
+                <label>Tag Abends</label>
+                <div class="radio">
+                    <input type="radio" name="tagabend" id="tag" value="tag"><label for="tag">Tag</label>
+                    <input type="radio" name="tagabend" id="abend" value="abend"><label for="abend">Abend</label>
+                </div>
+                <label for="bemerkung">Bemerkung</label>
+                <div>
+                    <textarea name="bemerkung" id="bemerkung" rows="7"></textarea>
+                </div>
+                <div>
+                    <button type="submit">Fertig</button><button type="button" id="buttonspeichern">speichern</button>
+                </div>
+            </form>
+        </div>
+
+    </div>
+
+
+    </div>
+</body>
+
+</html>
