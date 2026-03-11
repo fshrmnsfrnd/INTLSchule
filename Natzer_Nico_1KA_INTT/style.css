@@ -1,0 +1,66 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+div, img {
+    float: left;
+}
+
+div {
+    box-sizing: border-box;
+}
+
+img {
+    width: 100%;
+    
+}
+
+#rahmen, #details {
+    width: 100%;
+    padding: 5px;
+}
+
+#rahmen {
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    column-gap: 5px;
+    row-gap: 5px;
+    max-width: 100vh;
+    margin: auto;
+}
+
+#rahmen .kleindiv {
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+
+#details #detailbild {
+    border: 1px solid black;
+}
+
+#details {
+    grid-column: 2/8;
+}
+
+#details p {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#details h1 {
+    text-align: center;
+    font-size: 2em;
+}
+
+#detailbild {
+    width: 100%;
+    border: 1px solid black;
+    overflow: hidden;
+    aspect-ratio: 1/1;
+}
+
+
+
