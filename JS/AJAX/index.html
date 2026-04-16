@@ -5,14 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <label for="input"></label>
-    <input id="input" type="text">
-    <button id="search">Suchen</button>
-    <h2>Suchergebnisse</h2>
-    <div id="output"></div>
-    <h2>Details</h2>
-    <div id="details"></div>
+<body> 
+    <div style="display: flex;">
+        <div>
+            <label for="input"></label>
+            <input id="input" type="text"> 
+            <button id="search">Suchen</button>
+            <h2>Suchergebnisse</h2>
+            <div id="output"></div>
+        </div>
+        <div style="float: left; margin-left: 10px;">
+            <h2>Details</h2>
+            <div id="details">
+                <label for="nname">Name</label>
+                <input type="text" name="nname" id="nname">
+                <br>
+                <label for="vname">Vorame</label>
+                <input type="text" name="vname" id="vname">
+                <br>
+                <label for="strasse">Strasse</label>
+                <input type="text" name="strasse" id="strasse">
+                <br>
+                <label for="plz">PLZ</label>
+                <input type="number" name="plz" id="plz">
+                <br>
+                <label for="ort">Ort</label>
+                <input type="text" name="ort" id="ort">
+                <br>
+                <label for="id">ID</label>
+                <input type="number" name="id" id="id">
+                <br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <br>
+            </div>
+        </div>
+    </div>
+    
 </body>
 <script src="./script.js"></script>
 </html>
