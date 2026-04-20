@@ -1,37 +1,27 @@
 const inputField = document.getElementById("input")
 let outputField = document.getElementById("output")
 let detailsField = document.getElementById("details")
-//const searchBtn = document.getElementById("search")
-const request = new XMLHttpRequest()
-const url = "http://localhost/adressen.php"
+const url = "http://localhost/JS/AJAX/adressen.php"
 
 function fetchTextSearch(text){
-    request.open("get", url+"?suche="+text)
-    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
-    request.send(null)
-    request.onload = function () {
-        try{
-            printOutput(JSON.parse(this.responseText))
-        }catch(e){
-            console.log(e)
-        }
-    }
+    fetch(url+"?suche="+text).then((response)=>{
+        return response.json()
+    }).then((json) => {
+        printOutput(json)
+    }).catch((e) => {
+        console.log(e)
+    })
 }
 
 function fetchDetails(id){
-    request.open("get", url+"?details="+id)
-    request.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
-    request.send(null)
-    request.onload = function () {
-        try{
-            printDetails(JSON.parse(this.responseText))
-        }catch(e){
-            console.log(e)
-        }
-    }
+    fetch(url+"?details="+id).then((response)=>{
+        return response.json()
+    }).then((json)=>{
+        printDetails(json)
+    })
 }
 
-inputField.addEventListener("change", ()=>{
+inputField.addEventListener("input", ()=>{
     if(parseInt(inputField.value).toString() === NaN.toString()){
         fetchTextSearch(inputField.value)
     }else{
@@ -52,7 +42,6 @@ function printOutput(json){
 }
 
 function printDetails(data){
-    console.log(data)
     document.getElementById("nname").value = data.name
     document.getElementById("vname").value = data.vorname
     document.getElementById("strasse").value = data.strasse
