@@ -46,7 +46,6 @@ let textH = document.getElementById('TextH')
 let bildRueckseite = document.getElementById('BildH')
 
 function zeigeMuenzen(daten) {
-    console.log("showing")
     nummer.setAttribute('value', daten.Nummer)
     fundort.setAttribute('value', daten.Fundort)
     textV.setAttribute('value', daten.TextV)
@@ -55,7 +54,7 @@ function zeigeMuenzen(daten) {
 }
 
 //Augfgabe 2
-//Mein XAMPP geht nicht ich kann nur annahmen welches format zurückkommt
+//Mein XAMPP geht nicht ich kann nur annehmen welches format zurückkommt
 //Wenn man das fetch auskommentiert und die jeweils darunter im Kommentar stehende funktion verwender geht alles
 
 /*
