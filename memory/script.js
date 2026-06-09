@@ -36,7 +36,6 @@ document.addEventListener("DOMContentLoaded", () => {
         rueckseite.style.display = "block"
         vorderseite.style.display = "none"
         memorykaestechen_element.addEventListener("click", () => {
-            console.log(vorderseite.style.display, rueckseite.style.display)
             vorderseite.style.display = vorderseite.style.display === "none" ? "block" : "none"
             rueckseite.style.display = rueckseite.style.display === "none" ? "block" : "none"
         })
@@ -44,13 +43,8 @@ document.addEventListener("DOMContentLoaded", () => {
 
     vorderseiten.forEach(e => {
         e.addEventListener("click", (e) => {
-            displayDestination = activePlayer === 1 ? bilderSpieler1 : bilderSpieler2
+            let displayDestination = activePlayer === 1 ? bilderSpieler1 : bilderSpieler2
             displayDestination.innerHTML += `<img src="${e.target.src}"/>`
         })
-    })
-
-    vorderseiten.forEach(e => {
-        const path = e.src.toString().split("/")
-        console.log(path[path.length-1])
     })
 })
