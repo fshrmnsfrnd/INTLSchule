@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1000px;
+    border: 5px solid blue;
+}
+
+div{
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#ueberschrift{
+    width: 1000px;
+    height: 40px;
+    background-color: aliceblue;
+}
+
+#topnavigation{
+    width: 1000px;
+    height: 20px;
+    background-color: antiquewhite;
+}
+
+#topnavigation>ul>li{
+    list-style: none;
+    display: inline;
+}
+
+#links{
+    width: 200px;
+    height: 80vh;
+    float: left;
+    background-color: aqua;
+}
+
+#content{
+    float:left;
+    background-color: aquamarine;
+    width: 600px;
+    height: 80vh;
+}
+
+#rechts{
+    width: 200px;
+    height: 80vh;
+    float: right;
+    background-color: blueviolet;
+}
+
+#fusszeile{
+    width: 1000px;
+    height: 20px;
+    clear: both;
+    background-color: bisque;
+}

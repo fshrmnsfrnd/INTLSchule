@@ -1,0 +1,43 @@
+.outerBox{
+    width: auto;
+    overflow: hidden;
+}
+
+#outerBox1{
+    background-color: aqua;
+}
+
+#outerBox2{
+    background-color: navy;
+}
+
+#outerBox3{
+    background-color: blueviolet;
+}
+
+.innerBox{
+    float: left;
+    box-sizing: border-box;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    margin: 5px;
+    padding: 3px;
+    background-color: #ffff;
+}
+
+#outerBox1>.innerBox:nth-child(2n){
+    background-color: blanchedalmond;
+}
+
+.innerBox:nth-child(1n){
+  clear: left;
+}
+
+#id18{
+    height: 250px;
+}
+
+#id23{
+    clear: left;
+}

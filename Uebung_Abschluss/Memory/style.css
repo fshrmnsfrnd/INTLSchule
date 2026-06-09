@@ -1,0 +1,122 @@
+/*General*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    border: 1px solid black;
+}
+
+body{
+    margin: 3px;
+    display: grid;
+    grid-template-areas:
+    "t t t"
+    "n n n"
+    "p1 b p2"
+    "f f f"
+    ;
+    gap: 2px;
+}
+
+li{
+    background-color: green;
+    margin: 2px;
+    padding: 2px;
+}
+
+/*Titel*/
+#title{
+    grid-area: t;
+}
+
+/*Topnav*/
+#topnav{
+    grid-area: n;
+}
+
+#topnavList>li{
+    list-style: none;
+    display: inline;
+}
+
+.subNavList{
+    opacity: 0;
+    position: absolute;
+    list-style: none;
+}
+
+#subNavList1{
+    left: 0;
+}
+
+#subNavList2{
+    left: 50px;
+}
+
+#subNavList3{
+    left: 100px;
+}
+
+#topnavList>li:hover .subNavList{
+    opacity: 1;
+}
+
+/*Player1*/
+#player1{
+    grid-area: p1;
+}
+
+#player1>ul>li{
+    list-style: none;
+}
+
+/*Board*/
+#board{
+    grid-area: b;
+    width: 600px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin: auto auto;
+}
+
+img{
+    width: 100%;
+}
+
+/*Player2*/
+#player2{
+    grid-area: p2;
+}
+
+#player2>ul>li{
+    list-style: none;
+}
+
+/*Footer*/
+#footer{
+    grid-area: f;
+}
+
+/*Mobile*/
+@media (width<840px) {
+    body{
+        grid-template-areas:
+        "t"
+        "n"
+        "p1"
+        "b"
+        "p2"
+        "f"
+        ;
+    }
+
+    #board{
+        grid-area: b;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

@@ -1,0 +1,83 @@
+/* Generell */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+body{
+    display: grid;
+    grid-template-columns: 200px 600px 200px;
+    gap: 10px
+}
+
+/* Titel */
+#title{
+    width: 100%;
+    grid-column: span 3;
+}
+
+/* TopNav */
+#topnav{
+    grid-column: span 3;
+}
+
+#topnav>ul>li{
+	list-style: none;
+	display: inline;
+    position: relative;
+}
+  
+.subNavList{
+	opacity: 0;
+	position: absolute;
+	list-style: none;
+    left: 0;
+}
+  
+#topnav>ul>li:hover .subNavList{
+	opacity: 1;
+}
+
+/* Spieler */
+
+.player{
+
+}
+
+/* Spieler 1 */
+#player1{
+
+}
+#player1>h2{
+    background: #bbbbbb;
+}
+
+/* Spieler 2 */
+#player2{
+
+}
+
+/* Content */
+#content{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+
+img{
+    width: 100%;
+}
+
+.front{
+    display: none;
+}
+
+/* Footer */
+#footer{
+    grid-column: span 3;
+}
