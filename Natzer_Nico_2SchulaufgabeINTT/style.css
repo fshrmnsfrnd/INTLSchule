@@ -1,0 +1,35 @@
+
+
+body>div {
+    width: 96%;
+    box-sizing: border-box;
+    border: 1px solid rgb(198, 53, 53);
+    margin: 2%;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#formularMuenze form{
+    display: grid;
+    grid-template-columns: 180px auto;
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+#muenzenBilder {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    row-gap: 5px;
+    column-gap: 5px;
+}
+
+img {
+    width: 100%;
+    border: 1px rgb(195, 228, 13) solid;
+    box-sizing: border-box;
+}
+
+#formularMuenze img {
+    width: 150px;
+}

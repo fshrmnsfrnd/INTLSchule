@@ -1,0 +1,992 @@
+[
+    {
+        "Nummer": "1",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "C CAESAR AVG GERMA[NICVS PON M TR POT]",
+        "TextH": "VESTA S-C",
+        "Durchmesser": "27,3 mm",
+        "BildV": "M-2020-0001.av.jpg",
+        "BildH": "M-2020-0001.rv.jpg"
+    },
+    {
+        "Nummer": "2",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "FAVSTINA-[AVGVSTA]",
+        "TextH": "IVNO S-C",
+        "Durchmesser": "24 mm",
+        "BildV": "M-2020-0002.av.jpg",
+        "BildH": "M-2020-0002.rv.jpg"
+    },
+    {
+        "Nummer": "3",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP CAES VESPASIA[N AVG COS] III",
+        "TextH": "S-C (Adler auf Globus)",
+        "Durchmesser": "27,2 mm",
+        "BildV": "M-2020-0003.av.jpg",
+        "BildH": "M-2020-0003.rv.jpg"
+    },
+    {
+        "Nummer": "4",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP CAES DOMIT AVG GERM COS XIIII CENS PER PP",
+        "TextH": "VIRTVTI-AVGVSTI",
+        "Durchmesser": "29,8 mm",
+        "BildV": "M-2020-0004.av.jpg",
+        "BildH": "M-2020-0004.rv.jpg"
+    },
+    {
+        "Nummer": "5",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "[ANTONINVS A]VG PIVS P[P IMP II]",
+        "TextH": "[TR PO]T XX C[OS IIII - SC] (Securitas sitzend n.l.)",
+        "Durchmesser": "32,4 mm",
+        "BildV": "M-2020-0005.av.jpg",
+        "BildH": "M-2020-0005.rv.jpg"
+    },
+    {
+        "Nummer": "6",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "IMP SEV ALEXANDER AVG",
+        "TextH": "PM TRP VIIII COS III PP S-C (Sol stehend n.l.)",
+        "Durchmesser": "29,3 mm",
+        "BildV": "M-2020-0006.av.jpg",
+        "BildH": "M-2020-0006.rv.jpg"
+    },
+    {
+        "Nummer": "7",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Silber",
+        "TextV": "[IMP C VIC]TORINVS PF AVG",
+        "TextH": "SAL[VS AV]G",
+        "Durchmesser": "18,3 mm",
+        "BildV": "M-2020-0007.av.jpg",
+        "BildH": "M-2020-0007.rv.jpg"
+    },
+    {
+        "Nummer": "8",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "CONSTAN-TINVS AVG",
+        "TextH": "BEATA TRAN-QVILLITAS - VO\/TIS\/XX",
+        "Durchmesser": "19,1 mm",
+        "BildV": "M-2020-0008.av.jpg",
+        "BildH": "M-2020-0008.rv.jpg"
+    },
+    {
+        "Nummer": "9",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "CONSTAN-TINVS AVG",
+        "TextH": "BEATA TRAN-QVILLITAS - VO\/TIS\/XX",
+        "Durchmesser": "19,3 mm",
+        "BildV": "M-2020-0009.av.jpg",
+        "BildH": "M-2020-0009.rv.jpg"
+    },
+    {
+        "Nummer": "10",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "GRATIA-NVS PF AVG",
+        "TextH": "REPARATIO REI PVB",
+        "Durchmesser": "24 mm",
+        "BildV": "M-2020-0010.av.jpg",
+        "BildH": "M-2020-0010.rv.jpg"
+    },
+    {
+        "Nummer": "11",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP NERO CAESAR AVG P MAX TRP PP",
+        "TextH": "S-C\nVictoria mit Schild, Inschrift: SPQR\n",
+        "Durchmesser": "29,7 mm",
+        "BildV": "M-2020-0011.av.jpg",
+        "BildH": "M-2020-0011.rv.jpg"
+    },
+    {
+        "Nummer": "12",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "C CAESAR DIVI AVG PRON AVG P M TR P IIII PP",
+        "TextH": "VESTA S-C",
+        "Durchmesser": "27 mm",
+        "BildV": "M-2020-0012.av.jpg",
+        "BildH": "M-2020-0012.rv.jpg"
+    },
+    {
+        "Nummer": "13",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP NERVA CAES AVG PM T[RP (o. TRP II) COS II (o.III) PP]",
+        "TextH": "FORTVNA [AVGVST] S-C",
+        "Durchmesser": "27 mm",
+        "BildV": "M-2020-0013.av.jpg",
+        "BildH": "M-2020-0013.rv.jpg"
+    },
+    {
+        "Nummer": "14",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[IMP CA]ES NERVA TRAIAN AVG GERM PM",
+        "TextH": "TR POT [COS II PP] \nS-C\n(Victoria mit Schild: [SPQR])\n",
+        "Durchmesser": "27,1 mm",
+        "BildV": "M-2020-0014.av.jpg",
+        "BildH": "M-2020-0014.rv.jpg"
+    },
+    {
+        "Nummer": "15",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "[M AVREL A]NTONINVS AVG ARM[ENIACVS PM]",
+        "TextH": "[TR POT] XIX IMP [II COS III] - SC (Mars stehend n.r.)",
+        "Durchmesser": "31 mm",
+        "BildV": "M-2020-0015.av.jpg",
+        "BildH": "M-2020-0015.rv.jpg"
+    },
+    {
+        "Nummer": "16",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[IMP CAES NERVA] TRAIAN AVG GERM [PM]",
+        "TextH": "[TR] POT [CO]S III PP - SC (Victoria n.l.)",
+        "Durchmesser": "26,7 mm",
+        "BildV": "M-2020-0016.av.jpg",
+        "BildH": "M-2020-0016.rv.jpg"
+    },
+    {
+        "Nummer": "17",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP ALEXANDER PIVS AVG",
+        "TextH": "SPES [PVBLI]CA - SC",
+        "Durchmesser": "28,9 mm",
+        "BildV": "M-2020-0017.av.jpg",
+        "BildH": "M-2020-0017.rv.jpg"
+    },
+    {
+        "Nummer": "18",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP DIOCLETIANVS P AVG",
+        "TextH": "GENIO POPV-LI ROMANI",
+        "Durchmesser": "29,6 mm",
+        "BildV": "M-2020-0018.av.jpg",
+        "BildH": "M-2020-0018.rv.jpg"
+    },
+    {
+        "Nummer": "19",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Kupfer",
+        "TextV": "DN VALEN-S PF AVG",
+        "TextH": "[GL]ORIA RO-MANORVM",
+        "Durchmesser": "17,3 mm",
+        "BildV": "M-2020-0019.av.jpg",
+        "BildH": "M-2020-0019.rv.jpg"
+    },
+    {
+        "Nummer": "20",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "M COMMODVS ANT P FELIX AVG [BR]IT",
+        "TextH": "NOBILIT[AS] AVG PM TRP XII IMP VIII COS V PP - SC",
+        "Durchmesser": "40 mm",
+        "BildV": "M-2020-0020.av.jpg",
+        "BildH": "M-2020-0020.rv.jpg"
+    },
+    {
+        "Nummer": "21",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP GORDIANVS PIVS FEL AVG",
+        "TextH": "PM TRP IIII COS II PP - SC (Gordian n.r.)",
+        "Durchmesser": "24,5 mm",
+        "BildV": "M-2020-0021.av.jpg",
+        "BildH": "M-2020-0021.rv.jpg"
+    },
+    {
+        "Nummer": "22",
+        "Fundort": "Deidesheim",
+        "Material": "Bronze",
+        "TextV": "[M] COMMODVS ANTON[INV]S AV[G]",
+        "TextH": "TRP VIIII [IMP V] COS IIII PP \u2013 SC\n(Roma stehend n.l.)\n",
+        "Durchmesser": "25,9 mm",
+        "BildV": "M-2020-0022.av.jpg",
+        "BildH": "M-2020-0022.rv.jpg"
+    },
+    {
+        "Nummer": "23",
+        "Fundort": "Ellerstadt",
+        "Material": "Bronze",
+        "TextV": "IMP CAES NERVA TRAIAN AVG GERM PM",
+        "TextH": "TR POT - COS III PP - SC\n(Victoria n.l. mit Votivschild: SP\/QR)\n",
+        "Durchmesser": "27 mm",
+        "BildV": "M-2020-0023.av.jpg",
+        "BildH": "M-2020-0023.rv.jpg"
+    },
+    {
+        "Nummer": "24",
+        "Fundort": "Freinsheim",
+        "Material": "Bronze",
+        "TextV": "IMP CAES NERVA TRAIAN AVG GERM PM",
+        "TextH": "[TR] POT - COS III PP - SC\n(Victoria n.l. mit Votivschild: [SP\/QR])\n",
+        "Durchmesser": "27,5 mm",
+        "BildV": "M-2020-0024.av.jpg",
+        "BildH": "M-2020-0024.rv.jpg"
+    },
+    {
+        "Nummer": "25",
+        "Fundort": "Freinsheim",
+        "Material": "Messing",
+        "TextV": "L AVREL COMMODVS AVG TRP [III]",
+        "TextH": "[LIBERTAS] AV[G IMP II COS PP] - SC",
+        "Durchmesser": "29,8 mm",
+        "BildV": "M-2020-0025.av.jpg",
+        "BildH": "M-2020-0025.rv.jpg"
+    },
+    {
+        "Nummer": "26",
+        "Fundort": "Friedelsheim",
+        "Material": "Bronze",
+        "TextV": "IMP NERVA [CAES AVG] PM T[RP II CO]S III PP",
+        "TextH": "vermutl. [FORTVNA AVGVST] - SC",
+        "Durchmesser": "25,8mm",
+        "BildV": "M-2020-0026.av.jpg",
+        "BildH": "M-2020-0026.rv.jpg"
+    },
+    {
+        "Nummer": "27",
+        "Fundort": "Friedelsheim",
+        "Material": "Messing",
+        "TextV": "CRISPINA AVGVSTA",
+        "TextH": "IVNO LVCI[N]A - SC",
+        "Durchmesser": "27,7 mm",
+        "BildV": "M-2020-0027.av.jpg",
+        "BildH": "M-2020-0027.rv.jpg"
+    },
+    {
+        "Nummer": "28",
+        "Fundort": "Hardenburg",
+        "Material": "Messing",
+        "TextV": "[H]ADRIANVS-AVGVSTVS PP",
+        "TextH": "HILARI[TA]S PR - SC im Abschnitt: COS III",
+        "Durchmesser": "29,3 mm",
+        "BildV": "M-2020-0028.av.jpg",
+        "BildH": "M-2020-0028.rv.jpg"
+    },
+    {
+        "Nummer": "29",
+        "Fundort": "Herxheim",
+        "Material": "Messing",
+        "TextV": "IMP CAES NERVAE TRAIANO AVG GER DAC PM TRP [COS VI PP]",
+        "TextH": "[FORTVNAE REDVCI] - SC",
+        "Durchmesser": "33,8 mm",
+        "BildV": "M-2020-0029.av.jpg",
+        "BildH": "M-2020-0029.rv.jpg"
+    },
+    {
+        "Nummer": "30",
+        "Fundort": "Kallstadt",
+        "Material": "Bronze",
+        "TextV": "IMP [CAES] NERVAE TRAIANO [AVG GER DAC PM TRP COS V PP]",
+        "TextH": "SPQ[R OPTIM]O PRINCIPI - SC (\"Adler\" zw. 2 FZ)",
+        "Durchmesser": "27,1 mm",
+        "BildV": "M-2020-0030.av.jpg",
+        "BildH": "M-2020-0030.rv.jpg"
+    },
+    {
+        "Nummer": "31",
+        "Fundort": "Leistadt",
+        "Material": "Messing",
+        "TextV": "HADRIANVS-AVGVSTVS",
+        "TextH": "CO[S III] - SC (Salus sitzend n.l.)",
+        "Durchmesser": "27 mm",
+        "BildV": "M-2020-0031.av.jpg",
+        "BildH": "M-2020-0031.rv.jpg"
+    },
+    {
+        "Nummer": "32",
+        "Fundort": "Niederkirchen",
+        "Material": "Bronze",
+        "TextV": "[IMP CAES NERVAE TRAIANO AVG GER DAC PM TRP COS V PP]",
+        "TextH": "[SPQR OPTIMO PRINCIPI] \u2013 SC\n(Roma stehend n.l.)\n",
+        "Durchmesser": "25,9 mm",
+        "BildV": "M-2020-0032.av.jpg",
+        "BildH": "M-2020-0032.rv.jpg"
+    },
+    {
+        "Nummer": "33",
+        "Fundort": "Ruppertsberg",
+        "Material": "Messing",
+        "TextV": "IMP CAES NER [TRAIANO OPTIMO AV]G GER DAC PARTH[ICO PM TRP COS VI PP]",
+        "TextH": "[PR]OVIDENTIA \u2013 [AVGVSTI S]PQR - SC",
+        "Durchmesser": "32,6 mm",
+        "BildV": "M-2020-0033.av.jpg",
+        "BildH": "M-2020-0033.rv.jpg"
+    },
+    {
+        "Nummer": "34",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[M ANTO]NINVS [AVG TRP XXV]",
+        "TextH": "[COS] III \u2013 SC\n(Minerva n.r.)\n",
+        "Durchmesser": "24 mm",
+        "BildV": "M-2020-0034.av.jpg",
+        "BildH": "M-2020-0034.rv.jpg"
+    },
+    {
+        "Nummer": "35",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Silber",
+        "TextV": "IMP C MAXIMIANVS PF AVG",
+        "TextH": "VIRTVTI AVGG\n(Hercules k\u00e4mpft gegen nemeischen L\u00f6wen n.r.)\n",
+        "Durchmesser": "23,6 mm",
+        "BildV": "M-2020-0035.av.jpg",
+        "BildH": "M-2020-0035.rv.jpg"
+    },
+    {
+        "Nummer": "36",
+        "Fundort": "Wachenheim",
+        "Material": "Bronze",
+        "TextV": "IMP CAES NERVAE TRAIANO [AVG GER] DAC [PM TRP COS V PP]",
+        "TextH": "SPQR OPTIMO [PRINCIPI] \u2013 SC\n(Dacia sitzend n.l.; links Tropaion)\n",
+        "Durchmesser": "28,6 mm",
+        "BildV": "M-2020-0036.av.jpg",
+        "BildH": "M-2020-0036.rv.jpg"
+    },
+    {
+        "Nummer": "37",
+        "Fundort": "Wachenheim",
+        "Material": "Bronze",
+        "TextV": "[IMP CAES NERVAE] TRAIANO AVG GER DAC PM TRP [COS V PP]",
+        "TextH": "[SP]QR OPTIMO [PRINCIPI] \u2013 SC\n(Roma mit Speer u. Victoriola stehend n.l.)\n",
+        "Durchmesser": "27,4 mm",
+        "BildV": "M-2020-0037.av.jpg",
+        "BildH": "M-2020-0037.rv.jpg"
+    },
+    {
+        "Nummer": "38",
+        "Fundort": "ohne Fundort",
+        "Material": "Silber",
+        "TextV": "IMP C CLAVDIVS AVG",
+        "TextH": "PROVIDENT AVG",
+        "Durchmesser": "19,7 mm",
+        "BildV": "M-2020-0038.av.jpg",
+        "BildH": "M-2020-0038.rv.jpg"
+    },
+    {
+        "Nummer": "39",
+        "Fundort": "ohne Fundort",
+        "Material": "Messing",
+        "TextV": "IMP T CAES VESP AVG PM TRP PP COS VIII",
+        "TextH": "PROVIDENT AVGVST - SC",
+        "Durchmesser": "34,5 mm",
+        "BildV": "M-2020-0039.av.jpg",
+        "BildH": "M-2020-0039.rv.jpg"
+    },
+    {
+        "Nummer": "40",
+        "Fundort": "ohne Fundort",
+        "Material": "Messing",
+        "TextV": "[I]VLIA MAM[AEA] AVGVSTA",
+        "TextH": "VESTA - SC",
+        "Durchmesser": "30,5 mm",
+        "BildV": "M-2020-0040.av.jpg",
+        "BildH": "M-2020-0040.rv.jpg"
+    },
+    {
+        "Nummer": "41",
+        "Fundort": "Bergzabern",
+        "Material": "Bronze",
+        "TextV": "GERMANICVS CAESAR TI AVGVST F [DIVI AVG N]",
+        "TextH": "CCAESAR AVG GERMANICVS PON M TR POT \nIm Zentrum:\nSC",
+        "Durchmesser": "29,1 mm",
+        "BildV": "M-2020-0041.av.jpg",
+        "BildH": "M-2020-0041.rv.jpg"
+    },
+    {
+        "Nummer": "42",
+        "Fundort": "Deidesheim",
+        "Material": "Silber",
+        "TextV": "GALLIENV[S AVG]",
+        "TextH": "[DI]ANAE C[O]N[S AVG] (Hirsch n.l.)",
+        "Durchmesser": "18,9 mm",
+        "BildV": "M-2020-0042.av.jpg",
+        "BildH": "M-2020-0042.rv.jpg"
+    },
+    {
+        "Nummer": "43",
+        "Fundort": "Deidesheim",
+        "Material": "Bronze",
+        "TextV": "IMP CAES DOMIT AVG GERM COS XIIII CENS PER PP",
+        "TextH": "FORTVNA[E] AVGVSTI - SC",
+        "Durchmesser": "28,1 mm",
+        "BildV": "M-2020-0043.av.jpg",
+        "BildH": "M-2020-0043.rv.jpg"
+    },
+    {
+        "Nummer": "44",
+        "Fundort": "Deidesheim",
+        "Material": "Silber",
+        "TextV": "GALL[IENVS AVG]",
+        "TextH": "DIANAE CONS AVG",
+        "Durchmesser": "19,3 mm",
+        "BildV": "M-2020-0044.av.jpg",
+        "BildH": "M-2020-0044.rv.jpg"
+    },
+    {
+        "Nummer": "45",
+        "Fundort": "Deidesheim",
+        "Material": "Bronze",
+        "TextV": "unlesbar\n(Portrait eher Tiberius)",
+        "TextH": "ROM ET AVG\n(Altar von Lugdunum)",
+        "Durchmesser": "25,5 mm",
+        "BildV": "M-2020-0045.av.jpg",
+        "BildH": "M-2020-0045.rv.jpg"
+    },
+    {
+        "Nummer": "46",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[M AGRIPP]A LF COS [III]",
+        "TextH": "S-C\nGegenstempel TI AV\n(Claudius I.)",
+        "Durchmesser": "28 mm",
+        "BildV": "M-2020-0046.av.jpg",
+        "BildH": "M-2020-0046.rv.jpg"
+    },
+    {
+        "Nummer": "47",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "DIVVS [AVGVS]TVS PATER",
+        "TextH": "S-C im Abschnitt: PROVIDENT ",
+        "Durchmesser": "27,3 mm",
+        "BildV": "M-2020-0047.av.jpg",
+        "BildH": "M-2020-0047.rv.jpg"
+    },
+    {
+        "Nummer": "48",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[IMP CAES] DOMIT AVG GERM CO[S\u2026]",
+        "TextH": "unlesbar",
+        "Durchmesser": "30 mm",
+        "BildV": "M-2020-0048.av.jpg",
+        "BildH": "M-2020-0048.rv.jpg"
+    },
+    {
+        "Nummer": "49",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "CAESAR AVGVST PONT MAX TRIBVNIC POT]",
+        "TextH": "SC im Zentrum\n[P LVRIVS AGRI]PPA III VIR AAA FF\n",
+        "Durchmesser": "25 mm",
+        "BildV": "M-2020-0049.av.jpg",
+        "BildH": "M-2020-0049.rv.jpg"
+    },
+    {
+        "Nummer": "50",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "M A[GRIPPA LF COS III]",
+        "TextH": "S-C\nGegenstempel TI AV\n(Claudius I.)",
+        "Durchmesser": "25,7 mm",
+        "BildV": "M-2020-0050.av.jpg",
+        "BildH": "M-2020-0050.rv.jpg"
+    },
+    {
+        "Nummer": "51",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "[IMP CAES M] AVR SEV [ALEXANDER AVG]",
+        "TextH": "[PM TRP VII] COS [II P]P - SC (Mars auf Schiffsbug n.l.)",
+        "Durchmesser": "31,2 mm",
+        "BildV": "M-2020-0051.av.jpg",
+        "BildH": "M-2020-0051.rv.jpg"
+    },
+    {
+        "Nummer": "52",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "C [CAESA]R AVG GER[MANICVS PON] M TR POT",
+        "TextH": "VEST[A] \u2013 S-C\n(Gegenstempel TI\u2022 C\u2022A = Claudius I.)\n",
+        "Durchmesser": "27,6 mm",
+        "BildV": "M-2020-0052.av.jpg",
+        "BildH": "M-2020-0052.rv.jpg"
+    },
+    {
+        "Nummer": "53",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "[M] C[OMMODVS ANTON(INVS) AVG PIVS]",
+        "TextH": "[T]RP VIII[I IMP VI COS IIII PP] \u2013 S-C (Minerva mit Speer u. Schild n.r.)",
+        "Durchmesser": "24,2 mm",
+        "BildV": "M-2020-0053.av.jpg",
+        "BildH": "M-2020-0053.rv.jpg"
+    },
+    {
+        "Nummer": "54",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "TI C[LAVDIV]S CAE[SAR] AVG PM TRP IMP",
+        "TextH": "LIB[ERTAS AV]GVSTA",
+        "Durchmesser": "27,2 mm",
+        "BildV": "M-2020-0054.av.jpg",
+        "BildH": "M-2020-0054.rv.jpg"
+    },
+    {
+        "Nummer": "55",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Silber",
+        "TextV": "PROBV-S PF AVG",
+        "TextH": "[F]IDES [MILITVM]",
+        "Durchmesser": "21,1 mm",
+        "BildV": "M-2020-0055.av.jpg",
+        "BildH": "M-2020-0055.rv.jpg"
+    },
+    {
+        "Nummer": "56",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[TI CAESAR AVGVST F] IMPERAT [V]II",
+        "TextH": "ROM ET AVG\n(Altar von Lugdunum \u2013Altarserie II)",
+        "Durchmesser": "24,9 mm",
+        "BildV": "M-2020-0056.av.jpg",
+        "BildH": "M-2020-0056.rv.jpg"
+    },
+    {
+        "Nummer": "57",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "CAESAR AVG[VST PONT MAX TRIBVNIC POT]\nGegenstempel:\nTIB",
+        "TextH": "[M M]AECILIVS [TV]LL[VS III VIR] AAA[FF]\nSC im Zentrum\n",
+        "Durchmesser": "26,3 mm",
+        "BildV": "M-2020-0057.av.jpg",
+        "BildH": "M-2020-0057.rv.jpg"
+    },
+    {
+        "Nummer": "58",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "FAVSTIN[A]-AVGVSTA",
+        "TextH": "[HILAR]ITAS - S-C",
+        "Durchmesser": "33,7 mm",
+        "BildV": "M-2020-0058.av.jpg",
+        "BildH": "M-2020-0058.rv.jpg"
+    },
+    {
+        "Nummer": "59",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "IMP C MAXENTIVS PF AVG",
+        "TextH": "CONSERV- VRB SVAE (Roma in 6-s\u00e4uligem Tempel)",
+        "Durchmesser": "25,5 mm",
+        "BildV": "M-2020-0059.av.jpg",
+        "BildH": "M-2020-0059.rv.jpg"
+    },
+    {
+        "Nummer": "60",
+        "Fundort": "Eisenberg",
+        "Material": "Silber",
+        "TextV": "GALLIENVS [AVG]",
+        "TextH": "[DIA]NAE CONS AVG (Antilope n.l.) im Abschnitt XII",
+        "Durchmesser": "19,8mm",
+        "BildV": "M-2020-0060.av.jpg",
+        "BildH": "M-2020-0060.rv.jpg"
+    },
+    {
+        "Nummer": "61",
+        "Fundort": "Eppstein",
+        "Material": "Silber",
+        "TextV": "[GA]LLIENVS AVG",
+        "TextH": "[FIDES M]ILITVM r. im Feld: N",
+        "Durchmesser": "20,6 mm",
+        "BildV": "M-2020-0061.av.jpg",
+        "BildH": "M-2020-0061.rv.jpg"
+    },
+    {
+        "Nummer": "62",
+        "Fundort": "Erpolzheim",
+        "Material": "Bronze",
+        "TextV": "[IMP CAES DOMIT AVG G]ERM COS XV(?) CENS [PER PP]",
+        "TextH": "[MONETA] AVGVSTI",
+        "Durchmesser": "27,2 mm",
+        "BildV": "M-2020-0062.av.jpg",
+        "BildH": "M-2020-0062.rv.jpg"
+    },
+    {
+        "Nummer": "63",
+        "Fundort": "Forst",
+        "Material": "Bronze",
+        "TextV": "[M] A[GR]IPPA L [F COS III]",
+        "TextH": "S-C\n(Neptun mit Dreizack und Delphin)\nGegenstempel: TI AV (ligiert)\nunter Claudius I.",
+        "Durchmesser": "28,8 mm",
+        "BildV": "M-2020-0063.av.jpg",
+        "BildH": "M-2020-0063.rv.jpg"
+    },
+    {
+        "Nummer": "64",
+        "Fundort": "Forst",
+        "Material": "Silber",
+        "TextV": "GALL[IE]N[V]S AVG",
+        "TextH": "DIA[N]AE [CONS] AVG (Hirschkuh n.l.) im Abschnitt \u03b5",
+        "Durchmesser": "19,9 mm",
+        "BildV": "M-2020-0064.av.jpg",
+        "BildH": "M-2020-0064.rv.jpg"
+    },
+    {
+        "Nummer": "65",
+        "Fundort": "Forst",
+        "Material": "Messing",
+        "TextV": "M COMMODVS [ANT] P FELIX AVG BRIT",
+        "TextH": "[MART] PACAT [PM TRP] XIIII IMP VIII COS V P[P]",
+        "Durchmesser": "28 mm",
+        "BildV": "M-2020-0065.av.jpg",
+        "BildH": "M-2020-0065.rv.jpg"
+    },
+    {
+        "Nummer": "66",
+        "Fundort": "Forst",
+        "Material": "Bronze",
+        "TextV": "IMP CAES DOMIT AVG GERM COS XI CENS PER PP",
+        "TextH": "IOVI CONSERVAT - S-C",
+        "Durchmesser": "28,5 mm",
+        "BildV": "M-2020-0066.av.jpg",
+        "BildH": "M-2020-0066.rv.jpg"
+    },
+    {
+        "Nummer": "67",
+        "Fundort": "Frankenthal",
+        "Material": "Silber",
+        "TextV": "MAXIMINVS PIVS AVG GERM",
+        "TextH": "VICTORIA GERM",
+        "Durchmesser": "19,8 mm",
+        "BildV": "M-2020-0067.av.jpg",
+        "BildH": "M-2020-0067.rv.jpg"
+    },
+    {
+        "Nummer": "68",
+        "Fundort": "Friedelsheim",
+        "Material": "Messing",
+        "TextV": "LVCILLAE AVG ANT[ONINI AVG F]",
+        "TextH": "[DIANA] LVCI[FERA] - S-C",
+        "Durchmesser": "29,7 mm",
+        "BildV": "M-2020-0068.av.jpg",
+        "BildH": "M-2020-0068.rv.jpg"
+    },
+    {
+        "Nummer": "69",
+        "Fundort": "Friedelsheim",
+        "Material": "Messing",
+        "TextV": "[IMP CAE]S M AVREL ANTONIN[VS AVG P]M",
+        "TextH": "[CONCOR]D AVGVSTOR TRP X[V COS III] - S-C (Marc Aurel u. Lucius Verus)",
+        "Durchmesser": "26,2 mm",
+        "BildV": "M-2020-0069.av.jpg",
+        "BildH": "M-2020-0069.rv.jpg"
+    },
+    {
+        "Nummer": "70",
+        "Fundort": "Kallstadt",
+        "Material": "Messing",
+        "TextV": "M COMMOD ANT [P FELIX AVG BRIT PP]",
+        "TextH": "[LIBERAL AVG VII PM TRP XV IMP VIII] COS VI \u2013 S-C (Liberalitas mit Abacus und F\u00fcllhorn n.l.)",
+        "Durchmesser": "28,4 mm",
+        "BildV": "M-2020-0070.av.jpg",
+        "BildH": "M-2020-0070.rv.jpg"
+    },
+    {
+        "Nummer": "71",
+        "Fundort": "K\u00f6nigsbach",
+        "Material": "Messing",
+        "TextV": "IMP SEV ALEXANDER AVG",
+        "TextH": "PM TRP X COS III PP - S-C (Sol n.l.)",
+        "Durchmesser": "29,3 mm",
+        "BildV": "M-2020-0071.av.jpg",
+        "BildH": "M-2020-0071.rv.jpg"
+    },
+    {
+        "Nummer": "72",
+        "Fundort": "Leistadt",
+        "Material": "Bronze",
+        "TextV": "[M A]GRIPPA L [F] COS [III]",
+        "TextH": "S-C\n(Neptun mit Dreizack und Delphin)\nGegenstempel: TI AV (ligiert)\nunter Claudius I.",
+        "Durchmesser": "27,4 mm",
+        "BildV": "M-2020-0072.av.jpg",
+        "BildH": "M-2020-0072.rv.jpg"
+    },
+    {
+        "Nummer": "73",
+        "Fundort": "Mu\u00dfbach",
+        "Material": "Messing",
+        "TextV": "[L] SEPT SEV PE-RT AVG [IMP V]",
+        "TextH": "[DIVI M PII F] PM TRP III COS [II PP] - S-C",
+        "Durchmesser": "28,2 mm",
+        "BildV": "M-2020-0073.av.jpg",
+        "BildH": "M-2020-0073.rv.jpg"
+    },
+    {
+        "Nummer": "74",
+        "Fundort": "Mu\u00dfbach",
+        "Material": "Messing",
+        "TextV": "[M AVREL ANTONINVS AVG ARMENIACVS PM o. ARM PARTH MAX]",
+        "TextH": "[V]ICT [AVG T]R POT [XX IM]P III [COS III] \u2013 S-C",
+        "Durchmesser": "31,2 mm",
+        "BildV": "M-2020-0074.av.jpg",
+        "BildH": "M-2020-0074.rv.jpg"
+    },
+    {
+        "Nummer": "75",
+        "Fundort": "Niederkirchen",
+        "Material": "Bronze",
+        "TextV": "LVCILLAE AVG [ANTONINI] AVG F",
+        "TextH": "VESTA \u2013 S-C\n(Vesta mit Simpulum und Palladium n.l.; Rundaltar links)",
+        "Durchmesser": "25,4 mm",
+        "BildV": "M-2020-0075.av.jpg",
+        "BildH": "M-2020-0075.rv.jpg"
+    },
+    {
+        "Nummer": "76",
+        "Fundort": "Niederkirchen",
+        "Material": "Messing",
+        "TextV": "[AVR]ELIVS CAES ANTON AVG [PII F]",
+        "TextH": "[TR P]OT [X] C[OS II] \u2013 S-C\n(Minerva mit Eule und Speer n.l.; Ovalschild an l. Seite)",
+        "Durchmesser": "33,6 mm",
+        "BildV": "M-2020-0076.av.jpg",
+        "BildH": "M-2020-0076.rv.jpg"
+    },
+    {
+        "Nummer": "77",
+        "Fundort": "Niederkirchen",
+        "Material": "Messing",
+        "TextV": "IMP CAES C VIBIVS TREBONIANVS GALLVS AVG",
+        "TextH": "SALVS AVGG - S-C",
+        "Durchmesser": "29,6 mm",
+        "BildV": "M-2020-0077.av.jpg",
+        "BildH": "M-2020-0077.rv.jpg"
+    },
+    {
+        "Nummer": "78",
+        "Fundort": "Oggersheim",
+        "Material": "Bronze",
+        "TextV": "[TI CAE]SAR AVGVST F IMPER[AT] VII",
+        "TextH": "ROM ET AVG\n(Altar von Lugdunum \u2013 Altarserie II)",
+        "Durchmesser": "27,9 mm",
+        "BildV": "M-2020-0078.av.jpg",
+        "BildH": "M-2020-0078.rv.jpg"
+    },
+    {
+        "Nummer": "79",
+        "Fundort": "Ruppertsberg",
+        "Material": "Bronze",
+        "TextV": "T CAES IMP AVG F TRP COS VI CENSOR",
+        "TextH": "IVDAEA CAPTA \u2013 S-C\n(Judaea sitzend n.r. unter Palme; l. Seite Waffen)",
+        "Durchmesser": "27,2 mm",
+        "BildV": "M-2020-0079.av.jpg",
+        "BildH": "M-2020-0079.rv.jpg"
+    },
+    {
+        "Nummer": "80",
+        "Fundort": "Ruppertsberg",
+        "Material": "Silber",
+        "TextV": "G[ALLIE]NVS AVG",
+        "TextH": "[APOL]LINI CONS AVG\n(bogen-spannender Zentaur n.r.)",
+        "Durchmesser": "21,8 mm",
+        "BildV": "M-2020-0080.av.jpg",
+        "BildH": "M-2020-0080.rv.jpg"
+    },
+    {
+        "Nummer": "81",
+        "Fundort": "Ruppertsberg",
+        "Material": "Bronze",
+        "TextV": "[F]AVSTINA A[VGVSTA]",
+        "TextH": "VE[NER]I VICT[RICI] \u2013 S-C\n(Venus stehend n.l.; r. Victoriola; l. H. ruht auf Schild)",
+        "Durchmesser": "24,4 mm",
+        "BildV": "M-2020-0081.av.jpg",
+        "BildH": "M-2020-0081.rv.jpg"
+    },
+    {
+        "Nummer": "82",
+        "Fundort": "Ruppertsberg",
+        "Material": "Bronze",
+        "TextV": "C CAESAR AVG GERMANICVS PON M TR POT ",
+        "TextH": "VESTA - S-C",
+        "Durchmesser": "29,9 mm",
+        "BildV": "M-2020-0082.av.jpg",
+        "BildH": "M-2020-0082.rv.jpg"
+    },
+    {
+        "Nummer": "83",
+        "Fundort": "Wachenheim",
+        "Material": "Bronze",
+        "TextV": "IMP GORDI[A]NVS PIVS FEL AVG",
+        "TextH": "IOVIS STATOR - S-C",
+        "Durchmesser": "24,2 mm",
+        "BildV": "M-2020-0083.av.jpg",
+        "BildH": "M-2020-0083.rv.jpg"
+    },
+    {
+        "Nummer": "84",
+        "Fundort": "Weisenheim am Berg",
+        "Material": "Silber",
+        "TextV": "IMP GALLIENVS AVG",
+        "TextH": "[APOLLI]NI CONS AVG\n(Greif n.l.)",
+        "Durchmesser": "20,8 mm",
+        "BildV": "M-2020-0084.av.jpg",
+        "BildH": "M-2020-0084.rv.jpg"
+    },
+    {
+        "Nummer": "85",
+        "Fundort": "Weisenheim am Berg",
+        "Material": "Bronze",
+        "TextV": "DIVA FAVSTINA",
+        "TextH": "[AVGVSTA] \u2013 S-C\n(Vesta mit Fackel und Palladium n.l.)",
+        "Durchmesser": "24,8 mm",
+        "BildV": "M-2020-0085.av.jpg",
+        "BildH": "M-2020-0085.rv.jpg"
+    },
+    {
+        "Nummer": "86",
+        "Fundort": "Worms",
+        "Material": "Bronze",
+        "TextV": "IMP\/ [DIVI\/ F] (Agrippa mit Corona Rostrata und Lorbeer; Augustus barh\u00e4uptig)",
+        "TextH": "[COL]-NEM",
+        "Durchmesser": "27,7 mm",
+        "BildV": "M-2020-0086.av.jpg",
+        "BildH": "M-2020-0086.rv.jpg"
+    },
+    {
+        "Nummer": "87",
+        "Fundort": "Deidesheim",
+        "Material": "Bronze",
+        "TextV": "DIVVS AVGVSTVS PATER (Kopf, Strahlenkrone n.l.)",
+        "TextH": "IMP T CAES AVG R[ESTITVIT]-SC\n(Adler auf Globus, Kopf n.r.)",
+        "Durchmesser": "26,8 mm",
+        "BildV": "M-2020-0087.av.jpg",
+        "BildH": "M-2020-0087.rv.jpg"
+    },
+    {
+        "Nummer": "88",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[DIV]VS AVGVSTVS PATER (Kopf, Strahlenkrone n.l.)",
+        "TextH": "SC (gefl\u00fcgeltes Blitzb\u00fcndel)",
+        "Durchmesser": "28 mm",
+        "BildV": "M-2020-0088.av.jpg",
+        "BildH": "M-2020-0088.rv.jpg"
+    },
+    {
+        "Nummer": "89",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[CAESAR AVGVST P]ONT MAX [TRIBVNIC POT] (Kopf n.r.)",
+        "TextH": "M SALV[IVS OTHO III V]IR AAA FF SC im Zentrum",
+        "Durchmesser": "28,1 mm",
+        "BildV": "M-2020-0089.av.jpg",
+        "BildH": "M-2020-0089.rv.jpg"
+    },
+    {
+        "Nummer": "90",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[DIVVS AV]GV*STVS PATER (Kopf, Strahlenkrone n.l.; Stern \u00fcber Kopf)",
+        "TextH": "SC\n(sitzende weibliche Gestalt mit Patera u. Szepter n.r.)\n",
+        "Durchmesser": "27,9 mm ",
+        "BildV": "M-2020-0090.av.jpg",
+        "BildH": "M-2020-0090.rv.jpg"
+    },
+    {
+        "Nummer": "91",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[CAESAR AVGVST] PONT MAX TR[IBVNIC POT] (Kopf n.r.) GS: AV (ligiert)",
+        "TextH": "[P L]VRIVS AGRIPPA III [VIR AAA FF] SC im Zentrum",
+        "Durchmesser": "27,5 mm",
+        "BildV": "M-2020-0091.av.jpg",
+        "BildH": "M-2020-0091.rv.jpg"
+    },
+    {
+        "Nummer": "92",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "TI [CAESAR AVGVST F] IMPERAT VII",
+        "TextH": "[ROM] ET AVG",
+        "Durchmesser": "24,1 mm",
+        "BildV": "M-2020-0092.av.jpg",
+        "BildH": "M-2020-0092.rv.jpg"
+    },
+    {
+        "Nummer": "93",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[TI CLAVD]IVS CAESAR AVG [PM TRP IMP]",
+        "TextH": "S-C\n(Minerva mit Speer und Schild n.r.)\n",
+        "Durchmesser": "27,4 mm mm",
+        "BildV": "M-2020-0093.av.jpg",
+        "BildH": "M-2020-0093.rv.jpg"
+    },
+    {
+        "Nummer": "94",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Silber",
+        "TextV": "[GA]LLIENVS AV[G]",
+        "TextH": "DIANAE CONS AVG (Antilope n.l.)\nIm Abschnitt: XII",
+        "Durchmesser": "20 mm",
+        "BildV": "M-2020-0094.av.jpg",
+        "BildH": "M-2020-0094.rv.jpg"
+    },
+    {
+        "Nummer": "95",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "M AGRIPPA LF COS III",
+        "TextH": "S-C (Neptun mit Dreizack u. Delphin) Gegenstempel: TI AV(ligiert)",
+        "Durchmesser": "29 mm",
+        "BildV": "M-2020-0095.av.jpg",
+        "BildH": "M-2020-0095.rv.jpg"
+    },
+    {
+        "Nummer": "96",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "DIVVS AVGVS[TVS PATER] (Kopf, Strahlenkrone n.l.)",
+        "TextH": "S-C\n(Altar)\nIm Abschnitt:\n[PROVIDENT]\n",
+        "Durchmesser": "25,9 mm",
+        "BildV": "M-2020-0096.av.jpg",
+        "BildH": "M-2020-0096.rv.jpg"
+    },
+    {
+        "Nummer": "97",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Silber",
+        "TextV": "SALONINA AVG",
+        "TextH": "VE[NVS VICT]RIX",
+        "Durchmesser": "19,4 mm",
+        "BildV": "M-2020-0097.av.jpg",
+        "BildH": "M-2020-0097.rv.jpg"
+    },
+    {
+        "Nummer": "98",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Messing",
+        "TextV": "[IMP CAES NER TRAIANO OPTIMO AVG GER DAC PARTHICO PM TRP COS VI PP]",
+        "TextH": "[SENATVS POPVLVSQUE ROMANVS \u2013 S-C]\n(Traian zw. 2 Tropaia)",
+        "Durchmesser": "26,8 mm",
+        "BildV": "M-2020-0098.av.jpg",
+        "BildH": "M-2020-0098.rv.jpg"
+    },
+    {
+        "Nummer": "99",
+        "Fundort": "Bad D\u00fcrkheim",
+        "Material": "Bronze",
+        "TextV": "[M] ANTONI[NVS AVG TRP XXV]",
+        "TextH": "[COS III] \u2013 S-C\n(Minerva mit Speer und Schild n.r. \u2013\u00e4hnlich Claudius RIC (I\u00b2) Nr. 100!)",
+        "Durchmesser": "23,8 mm",
+        "BildV": "M-2020-0099.av.jpg",
+        "BildH": "M-2020-0099.rv.jpg"
+    }
+]
