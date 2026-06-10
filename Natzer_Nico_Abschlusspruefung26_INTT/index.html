@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Abschlussprüfung 2026 - Internettechnologien</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div id="rahmen">
+        <div id="suchediv">
+            <input type="text" id="suche" placeholder="Suche...">
+            <br>
+            <ul id="sucheListe">  
+                <li>eins</li>
+                <li>zwei</li>
+                <li>drei</li>
+            </ul>
+           
+        </div>
+        <div id="formulardiv">
+            <h2 id="ueberschirft">Abschlussprüfung 2026</h2>
+            <div id="formular">
+                   <label for="vorname">Vorname</label><input type="text" name="vorname" id="vorname">
+                    <label for="nachname">Name</label><input type="text" name="nachname" id="nachname">
+                    <label for="geburtsdatum">Geburtsdatum</label><input type="date" name="geburtsdatum" id="geburtsdatum">
+                    <label for="email">Email</label><input type="text" name="email" id="email">
+
+                    <label for="blutgruppe">Blutgruppe</label>
+                    <select name="blutgruppe" id="blutgruppe">
+                        <option value="A+">A+</option>
+                        <option value="A-">A-</option>
+                        <option value="B+">B+</option>
+                        <option value="B-">B-</option>
+                        <option value="AB+">AB+</option>
+                        <option value="AB-">AB-</option>
+                        <option value="O+">O+</option>
+                        <option value="O-">O-</option>
+                    </select>
+
+                    <label>Geschlecht</label>
+                    <div class="radio" value="m">
+                        <input type="radio" name="geschlecht" id="w" value="w"><label for="w">Weiblich</label>
+                        <input type="radio" name="geschlecht" id="m" value="m"><label for="m">Männlich</label>
+                        <input type="radio" name="geschlecht" id="d" value="d"><label for="d">Divers</label>                     
+                    </div>
+            </div>
+            
+        </div>
+        <div id="bilddiv"><img src="fotos/bild1.svg" alt="Foto1"></div>
+        <div id="unten">
+            <div id="untenButtonListe">
+                <button id="block1Button">Block 1</button>
+                <button id="block2Button">Block 2</button>
+                <button id="block3Button">Block 3</button>
+            </div>
+            <div id="block1">
+                Notizen:
+                <textarea name="notizen" id="notizen"></textarea>
+            </div>
+            <div id="block2">
+                <h2>Terminübersicht</h2>
+                <table id="tabelle">
+                    <tr>
+                        <th>Datum</th>
+                        <th>Ort</th>
+                        <th>Uhrzeit</th>
+                    </tr>
+                    <tr>
+                        <td>01.01.2026</td>
+                        <td>Berlin</td>
+                        <td>10:00</td>  
+                    </tr>
+                    <tr>
+                        <td>02.01.2026</td>
+                        <td>Hamburg</td>
+                        <td>11:00</td>
+                    </tr>
+
+                    </table>
+
+            </div>
+            <div id="block3">
+                <h1>Block 3</h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eveniet esse sed ea nam repellat odit, omnis ratione aliquam vero dolore veritatis pariatur, odio provident asperiores a possimus. Ex, earum minima!
+            </div>
+
+        </div>
+    </div>
+</body>
+<script src="./pruefung.js"></script>
+</html>

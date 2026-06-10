@@ -1,0 +1,34 @@
+:root {
+    --farbe1: #BAE6BA;
+    --farbe2: #7BA67B;
+    --farbe3: #E6BACF;
+    --farbe4: #916078;
+    --farbe5: #326632;
+    --farbe6: #3D0F25;
+}
+
+
+#rahmen {
+    border: 2px solid var(--farbe6);
+    padding: 1em;
+
+    background-color: var(--farbe1);
+}   
+
+#rahmen > div {
+box-sizing: border-box;
+background-color: white;
+    padding: 10px;
+
+    border: 1px solid var(--farbe6);
+    font-weight: bold;
+}
+
+#unten > div {
+    background-color: var(--farbe2);
+
+    margin: 20px;
+
+}
+
+

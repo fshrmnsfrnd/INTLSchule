@@ -1,0 +1,162 @@
+:root {
+    --farbe1: #BAE6BA;
+    --farbe2: #7BA67B;
+    --farbe3: #E6BACF;
+    --farbe4: #916078;
+    --farbe5: #326632;
+    --farbe6: #3D0F25;
+}
+
+/* 1.1 */
+
+#rahmen{
+    display: grid;
+    gap: 5px;
+    font-family: Verdana, Geneva;
+    grid-template-columns: 15em 1fr auto;
+}
+
+#suchediv{
+    grid-column: span 1;
+    grid-row: 1 / span 2;
+    padding: 0.5em;
+    background-color: var(--farbe1);
+}
+
+#bilddiv{
+    padding: 0.5em;
+    background-color: var(--farbe1);
+}
+
+#formulardiv{
+    grid-column: span 1;
+    padding: 0.5em;
+    background-color: var(--farbe1);
+}
+
+#unten{
+    grid-column: 2 / span 3;
+    padding: 0.5em;
+    background-color: var(--farbe1);
+}
+
+input{
+    font-family: Verdana, Geneva;
+    font-size: 1em;
+}
+
+button{
+    background-color: var(--farbe6);
+    font-weight: bold;
+    padding: 0.2em 1em 0.2em 1em;
+}
+
+button:hover{
+    background-color: var(--farbe5);
+}
+
+/* 1.2 */
+#formular{
+    display: grid;
+    grid-template-columns: 15em 1fr;
+    row-gap: 0.5em;
+    column-gap: 1em;
+}
+
+label{
+    margin-left: auto;
+}
+
+/* 1.3 */
+#bilddiv{
+    max-width: 15em;
+}
+
+img{
+    width: 100%;
+}
+
+/* 1.4 */
+#suchediv{
+    position: relative;
+}
+
+#suchediv>ul{
+    position: absolute;
+    top: 2.5em;
+}
+
+#suchediv>ul>li{
+    list-style: none;
+    padding: 0.5em;
+    border-bottom: 1px solid black;
+    color: white;
+    background-color: var(--farbe5);
+}
+
+/* 1.5 */
+#unten{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#unten>*{
+    margin-top: 0.5em;
+}
+
+#untenButtonListe{
+    display: flex;
+    flex-direction: row;
+}
+
+#untenButtonListe>button{
+    margin-right: 1em;
+}
+
+#block1, #block2, #block3{
+    border: 1px solid black;
+    border-radius: 0.5em;
+    background-color: var(--farbe2);
+    padding: 0.5em;
+}
+
+#notizen{
+    width: 100%;
+    height: 10em;
+}
+
+#block2>table>tbody{
+    background-color: white;
+}
+
+#block2>table>tbody>tr>*{
+    border: 1px solid black;
+}
+
+#block2>table>tbody>tr:nth-child(2n){
+    background-color: var(--farbe1);
+}
+
+/* 1.6 */
+@media (width<=1000px){
+    #rahmen{
+    display: grid;
+    gap: 5px;
+    grid-template-columns: 75% 25%;
+    }
+
+    #suchediv{
+        grid-column: 1 / span 2;
+        height: 3em;
+    }
+
+    label{
+        width: 10em;
+    }
+
+    #unten{
+        grid-column: 1 / span 2;
+    }
+
+}
